@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #DAD6D6;
+    padding: 3%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A61C3C;
+    border: 1px solid #A61C3C;
+    color: #F4AC45;
+    border-radius: 25px;
+    height: 10%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    color: #A61C3C;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background-color: #A61C3C;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    height: 5rem;
+    margin: 2%;
+    background-color: #F4AC45;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.input {
+    height: 3rem;
+    text-align: center;
+    background-color: #92BFB1;
+    border-color: #694A38;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.input:focus {
+    outline: transparent;
+}
+
+button {
+    padding: 1rem;
+    margin: 1rem 40% 0 40%;
+    background-color: #F4AC45;
+    border-color: transparent;
+    border-radius: 25px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+#new_bookmark {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    flex-direction: column;
+    width: 50%;
+}
+
+::placeholder {
+    color: #221E22;
+    opacity: 1;
+}
